@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+caption {
+  padding: 10px;
+}
+th {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+tr {
+  outline: 0;
+}
+td {
+  padding: 7px 5px;
+  border: 1px solid #000;
+}
+.icons {
+  border: none;
+  cursor: pointer;
+}
+.fa-trash-alt {
+  color: red;
+}
+.fa-check {
+  color: green;
+}
+
+.add{
+  margin-top: 20px;
+}
+input {
+  padding: 7px 5px;
+  outline: 0;
+}
+#add-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: rgb(181, 189, 194);
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+.valid {
+  border: 1px solid green;
+}
+.invalid {
+  border: 1px solid red;
+}
